@@ -1,21 +1,21 @@
 const heroImages = [
     {
-        src: '../res/images/hero-images/ghost.jpg',
+        src: 'https://pbs.twimg.com/media/FUvtYx4XEAI-UVv?format=jpg&name=large',
         bgSize: '100%',
     },
     {
-        src: '../res/images/hero-images/farcry6.jpg',
+        src: 'https://press-start.com.au/wp-content/uploads/2021/10/Far-Cry-6-Header-Right-770x433.jpg',
         bgSize: '110%'
     },
     {
-        src: '../res/images/hero-images/hyperlight.jpg',
+        src: 'https://www.gematsu.com/wp-content/uploads/2022/03/Game-Page-Featured_Hyper-Light-Drifter.jpg',
         bgSize: '100%'
     },
     {
-        src: '../res/images/hero-images/valo2.jpg',
+        src: 'https://www.ungeek.ph/wp-content/uploads/2022/06/valorant_episode_5_act_1.jpg',
         bgSize: '110%'
     }, {
-        src: '../res/images/hero-images/dishonored2.jpg',
+        src: 'https://images8.alphacoders.com/710/thumb-1920-710284.png',
         bgSize: '100%'
     }
 ]
