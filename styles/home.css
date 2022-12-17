@@ -176,6 +176,8 @@ a{
 
 #hero-section-backcover {
     background:rgba(0,0,0,.4);
+    display: flex;
+
 }
 #hero-text-cover {
     background: linear-gradient(to right, rgba(18, 18, 18, .7) 20%, rgba(0,0,0,0));
@@ -219,6 +221,40 @@ a{
 #hero-image-discs-container{
     display: flex;
     flex-direction: row;
+}
+#cta-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 55px;
+}
+#cta {
+    border: 3px solid var(--blueBtn);
+    background: rgba(0,0,0,.4);
+    min-width: fit-content;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
+}
+#cta:hover {
+    width: 110px;
+    border-color: #ff2b59;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 0px 0px rgba(0,0,0, .7);
+
 }
 .hero-image-disc {
     float: left;
@@ -399,6 +435,20 @@ a{
 }
 /* END FREEGAMES SECTION */
 
+/* START OF SOCIALS SECTION */
+#socials-section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#socials-section img {
+    margin: 0 20px;
+}
+/* END OF SOCIALS SECTION */
+
 /* START FOOTER */
 #footer {
     background: var(--headerBG);
@@ -407,12 +457,6 @@ a{
 
     margin-top: 100px;
     box-sizing: border-box;
-}
-#footer-header {
-    margin-bottom: 10px;
-}
-#footer-header img{
-    width: 30px;
 }
 #footer-detail h5 {
     color: #656565;
